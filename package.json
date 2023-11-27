@@ -1,0 +1,24 @@
+{
+  "name": "od-data",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "clean-data": "node ./scripts/clean-data.js",
+    "make-chunks": "node ./scripts/make-chunks.js",
+    "make-journeys": "node ./scripts/make-journeys.js",
+    "make-points": "node ./scripts/make-points.js",
+    "compress-points": "node ./scripts/compress-points.js",
+    "make-top5": "node ./scripts/make-top5.js",
+    "make-counts": "node ./scripts/make-counts.js",
+    "make-metadata": "node ./scripts/make-metadata.js"
+  },
+  "author": "Ahmad Barclay",
+  "license": "ISC",
+  "devDependencies": {
+    "@turf/turf": "^6.5.0",
+    "compress-csv-to-json": "^0.0.2",
+    "d3-dsv": "^3.0.1"
+  }
+}
